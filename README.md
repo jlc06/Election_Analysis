@@ -42,7 +42,12 @@ The analysis of the election show that:
 ## Election-Audit Summary
 While the current script was created with this one election in mind, its structure allows it to be reused for future elections through light modifications. 
 
+![1st_Part](Python_1.png)
+
 The first part of the code creates the variables that house the candidates up for election, the counties where voting is occuring, the votes obtained by each candidate, the votes cast in each county, and ultimately the winner of the election and county with the largest turnout. The first modificaiton to be made is the the file loading path. 
+
+![2nd_Part](Python_2.png)
 
 To run this code on other elections, one must make sure the new data is saved in an accesible area. Next, all one must do is change the "election_results.csv" to the name of the file with the new data. With the rest of the variables already set up, this code will capture the candidates and counties in the new data just as it did with this Colorado election using the code below:
 
+![3rd_Part](Python_3.png)
