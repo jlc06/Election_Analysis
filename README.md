@@ -1,7 +1,7 @@
 # Colorado Election Audit
 
 ## Project Overview
-A Colorado Board of Elections employee has give me the following tasks to complete the election aduit of a recent local congressional election.
+A Colorado Board of Elections employee has give me the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
 2. Calculate the total amount of votes by county, with percentages of overall votes
@@ -46,11 +46,11 @@ While the current script was created with this one election in mind, its structu
 
 ![1st_Part](Python_1.png)
 
-The first part of the code creates the variables that house the candidates up for election, the counties where voting is occuring, the votes obtained by each candidate, the votes cast in each county, and ultimately the winner of the election and county with the largest turnout. The first modificaiton to be made is the the file loading path. 
+The first part of the code creates the variables that house the candidates up for election, the counties where voting is occurring, the votes obtained by each candidate, the votes cast in each county, and ultimately the winner of the election and county with the largest turnout. The first modification to be made is the the file loading path. 
 
 ![2nd_Part](Python_2.png)
 
-To run this code on other elections, one must make sure the new data is saved in an accesible area. Next, all one must do is change the "election_results.csv" to the name of the file with the new data. With the rest of the variables already set up, this code will capture the candidates and counties in the new data just as it did with this Colorado election using the code below:
+To run this code on other elections, one must make sure the new data is saved in an accessible area. Next, all one must do is change the "election_results.csv" to the name of the file with the new data. With the rest of the variables already set up, this code will capture the candidates and counties in the new data just as it did with this Colorado election using the code below:
 
 ![3rd_Part](Python_3.png)
 
