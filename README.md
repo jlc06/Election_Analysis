@@ -54,4 +54,4 @@ To run this code on other elections, one must make sure the new data is saved in
 
 ![3rd_Part](Python_3.png)
 
-Through the code provided above, one other 
+Through the code provided above, one other possible modification is if this code was used for a country wide election rather than a state election. For example, this code can be used for any upcoming presidential election if the data provided captured all candidate names and states from which the ballots came from. If this were the case, the "county_list" variable could be changed to "state_list" and "county_votes" dictionary to "state_votes". Other than those minor adjustments, if the csv file had the same format ("Ballot ID", "State", "Candidate"), then the code would run the same and provide election results at an even larger level.
