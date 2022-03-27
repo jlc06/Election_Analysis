@@ -1,4 +1,4 @@
-# Colorado Election Results
+# Colorado Election Audit
 
 ## Project Overview
 A Colorado Board of Elections employee has give me the following tasks to complete the election aduit of a recent local congressional election.
@@ -15,7 +15,7 @@ A Colorado Board of Elections employee has give me the following tasks to comple
 - Data Source: election_results.csv
 - Software: Python 3.9.7, Visual Studio Code 1.65.2
 
-## Summary
+## Results
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
 - The counties involved were:
@@ -39,6 +39,10 @@ The analysis of the election show that:
 - The winner of the election was:
   - Diana DeGette, who received 73.8% of the vote and 272,892 total votes.
 
-## Challenge Overview
+## Election-Audit Summary
+While the current script was created with this one election in mind, its structure allows it to be reused for future elections through light modifications. 
 
-## Challenge Summary
+The first part of the code creates the variables that house the candidates up for election, the counties where voting is occuring, the votes obtained by each candidate, the votes cast in each county, and ultimately the winner of the election and county with the largest turnout. The first modificaiton to be made is the the file loading path. 
+
+To run this code on other elections, one must make sure the new data is saved in an accesible area. Next, all one must do is change the "election_results.csv" to the name of the file with the new data. With the rest of the variables already set up, this code will capture the candidates and counties in the new data just as it did with this Colorado election using the code below:
+
